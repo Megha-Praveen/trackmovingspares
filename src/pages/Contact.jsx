@@ -2,7 +2,7 @@ const Contact = () => {
   const branchData = [
     {
       title: "Main Branch",
-      image: "/src/assets/about5.jpg",
+      image: "/src/assets/E1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7865.681483184077!2d76.54113866989162!3d9.694630500000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d5593feec9a1%3A0xb9605a90b55d716f!2sTrackmoving%20Spares!5e0!3m2!1sen!2sin!4v1747058837923!5m2!1sen!2sin",
       address:
@@ -13,7 +13,7 @@ const Contact = () => {
     },
     {
       title: "Erattupetta Branch",
-      image: "/src/assets/about5.jpg",
+      image: "/src/assets/K1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.780858083474!2d76.75912886388018!3d9.699735892616433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cb006f7f2861%3A0xbacc6d6a76e236be!2sTrack%20Moving%20Spares!5e0!3m2!1sen!2sin!4v1747060143354!5m2!1sen!2sin",
       address: "Njallampuzha Building, Panakkapalam Jn., Erattupetta.",
@@ -22,7 +22,7 @@ const Contact = () => {
     },
     {
       title: "Karukachal Branch",
-      image: "/src/assets/about5.jpg",
+      image: "/src/assets/K1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7869.937638191342!2d76.6288238935791!3d9.511438500000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062e2bacaee48d%3A0xcfb23daf8e97bee1!2sTRACK%20MOVING%20SPARES!5e0!3m2!1sen!2sin!4v1747059930681!5m2!1sen!2sin",
       address: "Vazhoor Road, Near Nethalloor Jn., Karukachal.",
@@ -31,7 +31,7 @@ const Contact = () => {
     },
     {
       title: "Kaduthuruthy Branch",
-      image: "/src/assets/about5.jpg",
+      image: "/src/assets/K1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7863.757369203303!2d76.4613337935791!3d9.776331500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d70007e21a1b%3A0xcd86240b1dba357a!2sTrack%20Moving%20Spares!5e0!3m2!1sen!2sin!4v1747059992671!5m2!1sen!2sin",
       address:

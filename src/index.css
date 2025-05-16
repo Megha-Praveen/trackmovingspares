@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-theme-yellow {
   color: #f5c518;
 }
