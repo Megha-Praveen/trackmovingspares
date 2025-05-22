@@ -4,7 +4,7 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <>
-        <div className="home-section bg-dark py-5" id="home">
+        <div className="home-section b1 py-5" id="home">
           <div className="container">
             <div className="row align-items-center justify-content-center text-center text-lg-start">
               <div className="col-lg-6 mb-4 mb-lg-0">

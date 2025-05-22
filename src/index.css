@@ -5,6 +5,57 @@
   font-family: "Kanit", sans-serif;
 }
 
+
+.b1 {
+  position: relative;
+  background: linear-gradient(135deg, #1d3c6a, #375a7f, #2B3E50);
+  color: white;
+  overflow: hidden;
+  padding: 4rem 0;
+  z-index: 0;
+}
+
+/* Base wave overlays from before */
+.b1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff1a' fill-opacity='1' d='M0,224L60,197.3C120,171,240,117,360,106.7C480,96,600,128,720,144C840,160,960,160,1080,144C1200,128,1320,96,1380,80L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: cover;
+  z-index: 1;
+}
+
+.b1::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff0d' fill-opacity='1' d='M0,64L80,80C160,96,320,128,480,160C640,192,800,224,960,234.7C1120,245,1280,235,1360,229.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: cover;
+  z-index: 2;
+}
+
+/* Geometric shapes and dots layer */
+.b1 .geometric-bg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* So it doesn't block clicks */
+  z-index: 0;
+  overflow: visible;
+}
+
+.b2{
+  background: linear-gradient(135deg, #e9f1fb, #d0e3f0, #f5f9fc);
+}
+
 .navbar .nav-link {
   color: white !important;
   transition: all 0.3s ease-in-out;

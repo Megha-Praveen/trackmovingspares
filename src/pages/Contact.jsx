@@ -42,7 +42,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="py-5 bg-dark text-light" id="contact">
+    <div className="py-5 b1 text-light" id="contact">
       <div className="container">
         <h1 className="text-center text-primary fw-bold mb-5">Contact Us</h1>
 

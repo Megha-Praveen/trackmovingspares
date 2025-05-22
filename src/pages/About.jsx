@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const About = () => {
   return (
-    <div className="py-5 bg-light" id="about">
+    <div className="py-5 b2" id="about">
       <div className="container">
         <h1 className="text-primary text-center fw-bold mb-5">About Us</h1>
         <div className="row align-items-center justify-content-center text-center text-lg-start g-5">
