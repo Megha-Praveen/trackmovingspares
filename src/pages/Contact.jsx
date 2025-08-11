@@ -13,7 +13,7 @@ const Contact = () => {
     },
     {
       title: "Erattupetta Branch",
-      image: "/src/assets/K1.jpg",
+      image: "/src/assets/P1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.780858083474!2d76.75912886388018!3d9.699735892616433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cb006f7f2861%3A0xbacc6d6a76e236be!2sTrack%20Moving%20Spares!5e0!3m2!1sen!2sin!4v1747060143354!5m2!1sen!2sin",
       address: "Njallampuzha Building, Panakkapalam Jn., Erattupetta.",
@@ -31,7 +31,7 @@ const Contact = () => {
     },
     {
       title: "Kaduthuruthy Branch",
-      image: "/src/assets/K1.jpg",
+      image: "/src/assets/A1.jpg",
       mapSrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7863.757369203303!2d76.4613337935791!3d9.776331500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d70007e21a1b%3A0xcd86240b1dba357a!2sTrack%20Moving%20Spares!5e0!3m2!1sen!2sin!4v1747059992671!5m2!1sen!2sin",
       address:
@@ -53,15 +53,12 @@ const Contact = () => {
                 src={branch.image}
                 alt={branch.title}
                 className="img-fluid rounded shadow"
-                style={{ maxHeight: "300px", objectFit: "cover" }}
-              />
+                style={{ height: "300px", objectFit: "cover" }}/>
             </div>
             <div className="col-lg-4 text-center">
               <iframe
                 src={branch.mapSrc}
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
+                style={{ height: "300px", width:"100%"}}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
