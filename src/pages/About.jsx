@@ -1,5 +1,18 @@
 import Carousel from 'react-bootstrap/Carousel';
 
+// ✅ Import images from src/assets
+import A2 from '../assets/A2.jpg';
+import A3 from '../assets/A3.jpg';
+import A4 from '../assets/A4.jpg';
+import E1 from '../assets/E1.jpg';
+import E2 from '../assets/E2.jpg';
+import E3 from '../assets/E3.jpg';
+import E4 from '../assets/E4.jpg';
+import K1 from '../assets/K1.jpg';
+import K2 from '../assets/K2.jpg';
+import K3 from '../assets/K3.jpg';
+import K4 from '../assets/K4.jpg';
+
 const About = () => {
   return (
     <div className="py-5 b2" id="about">
@@ -16,12 +29,12 @@ const About = () => {
                 In a market flooded with counterfeit products, sourcing genuine parts at reasonable rates was a major hurdle. Through persistence and research, we partnered with reputable suppliers across India and abroad, ensuring trust and quality.
               </p>
               <p className="text-dark lead mb-4 text-justify">
-                Thanks to our loyal customers, we expanded in 2014 under the name <strong>Track Moving Spares</strong>, supplying parts for machines like <strong>Hitachi, KOMATSU, JS, Volvo, Hyundai, All Mini Excavaters, Rock Breakers and Lubricants</strong>.
+                Thanks to our loyal customers, we expanded in 2014 under the name <strong>Track Moving Spares</strong>, supplying parts for machines like <strong>Hitachi, KOMATSU, JS, Volvo, Hyundai, All Mini Excavators, Rock Breakers and Lubricants</strong>.
               </p>
               <p className="text-dark lead mb-0 text-justify">
                 Today, our footprint extends beyond Ettumanoor with branches in <strong>Erattupetta (Panakkapalam)</strong>, <strong>Karukachal (Nethalloor)</strong>, and <strong>Kaduthuruthy (Appanchira)</strong>, all within Kottayam District. Our journey has been powered by a passionate team, our valued customers, and above all, the grace of God.
               </p>
-            </div> 
+            </div>
           </div>
 
           {/* Image Carousel */}
@@ -29,97 +42,41 @@ const About = () => {
             <div className="rounded shadow-sm overflow-hidden">
               <Carousel fade indicators={false} controls={true}>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/E1.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={E1} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/E2.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={E2} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/E3.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={E3} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/E4.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={E4} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/K1.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={K1} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/K2.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={K2} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/K3.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={K3} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/K4.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={K4} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/A2.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={A2} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/A3.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={A3} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    src= "/src/assets/A4.jpg"
-                    alt="Company Branch"
-                    className="d-block w-100"
-                    style={{ objectFit: 'cover', height: '600px', width: '1200px' }}
-                  />
+                  <img src={A4} alt="Company Branch" className="d-block w-100" style={{ objectFit: 'cover', height: '600px', width: '1200px' }} />
                 </Carousel.Item>
               </Carousel>
             </div>
           </div>
-
         </div>
       </div>
     </div>

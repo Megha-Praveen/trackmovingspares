@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png';
 import About from "./About";
 import Contact from "./Contact";
 
@@ -9,7 +10,7 @@ const Home = () => {
             <div className="row align-items-center justify-content-center text-center text-lg-start">
               <div className="col-lg-6 mb-4 mb-lg-0">
                 <img
-                  src="/src/assets/logo.png"
+                  src={logo}
                   alt="Track Moving Spares Logo"
                   className="img-fluid logo-image"
                   style={{ maxWidth: '300px' }}/>     
