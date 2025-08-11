@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png';
+
 const Footer = () => {
   return (
     <footer className="b2 text-dark pt-5 pb-3 mt-5">
@@ -6,7 +8,7 @@ const Footer = () => {
 
           {/* Main Branch Info */}
           <div className="col-md-4 mb-4">
-            <h4 className="text-primary mb-3"><img src="/src/assets/logo.png"  alt="Logo"  width="45"  height="45"  className="me-2 rounded-circle border-2 border-primary"/> Track Moving Spares</h4>
+            <h4 className="text-primary mb-3"><img src={logo}  alt="Logo"  width="45"  height="45"  className="me-2 rounded-circle border-2 border-primary"/> Track Moving Spares</h4>
             <p className="mb-1">A Group of Perfect Earth Moving</p>
             <p className="mb-1">All high quality replacement spares for JCB, Hitachi, Komatsu, Mini Excavaters, Rock Breakers & Lubricants available.</p>
           </div>
