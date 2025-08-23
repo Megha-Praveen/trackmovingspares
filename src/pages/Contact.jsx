@@ -71,7 +71,7 @@ const Contact = () => {
               ></iframe>
             </div>
             <div className="col-lg-4">
-              <div className="text-light">
+              <div className="text-dark">
                 <h5 className="fw-bold mb-3">{branch.title}</h5>
                 <p>
                   <i className="fa-solid fa-location-dot text-warning me-2"></i>
