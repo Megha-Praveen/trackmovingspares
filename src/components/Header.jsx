@@ -15,7 +15,7 @@ const Header = () => {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
             <Nav.Link className="nav-link" href="#about">About</Nav.Link>
-            <Nav.Link className="nav-link" href="#categories">Services</Nav.Link>
+            <Nav.Link className="nav-link" href="#services">Services</Nav.Link>
             <Nav.Link className="nav-link" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
