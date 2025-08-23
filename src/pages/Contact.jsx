@@ -14,7 +14,7 @@ const Contact = () => {
         "Ettumanoor - Ernakulam Road, Near Popular JCB Showroom, Kanakkary, Ettumanoor, Kottayam, Kerala, 686 632",
       phone: "9747081004, 9746362700",
       email: "trackmoving@gmail.com",
-      time: "Mon - Sat: 8:30 AM - 6:30 PM",
+      time: "Mon - Sat: 9:30 AM - 6:30 PM",
     },
     {
       title: "Erattupetta Branch",
@@ -23,7 +23,7 @@ const Contact = () => {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.780858083474!2d76.75912886388018!3d9.699735892616433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cb006f7f2861%3A0xbacc6d6a76e236be!2sTrack%20Moving%20Spares!5e0!3m2!1sen!2sin!4v1747060143354!5m2!1sen!2sin",
       address: "Njallampuzha Building, Panakkapalam Jn., Erattupetta.",
       phone: "7558087321",
-      time: "Mon - Sat: 9:00 AM - 6:00 PM",
+      time: "Mon - Sat: 9:30 AM - 5:30 PM",
     },
     {
       title: "Karukachal Branch",
@@ -32,7 +32,7 @@ const Contact = () => {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7869.937638191342!2d76.6288238935791!3d9.511438500000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062e2bacaee48d%3A0xcfb23daf8e97bee1!2sTRACK%20MOVING%20SPARES!5e0!3m2!1sen!2sin!4v1747059930681!5m2!1sen!2sin",
       address: "Vazhoor Road, Near Nethalloor Jn., Karukachal.",
       phone: "8078541071",
-      time: "Mon - Sat: 9:00 AM - 6:00 PM",
+      time: "Mon - Sat: 9:30 AM - 5:30 PM",
     },
     {
       title: "Kaduthuruthy Branch",
@@ -42,12 +42,12 @@ const Contact = () => {
       address:
         "Chempalayil building, near Haya super market, Appanchira, Kaduthuruthy, 686604.",
       phone: "9495576632",
-      time: "Mon - Sat: 9:00 AM - 6:00 PM",
+      time: "Mon - Sat: 9:30 AM - 5:30 PM",
     },
   ];
 
   return (
-    <div className="py-5 b1 text-light" id="contact">
+    <div className="py-5 b2" id="contact">
       <div className="container">
         <h1 className="text-center text-primary fw-bold mb-5">Contact Us</h1>
 

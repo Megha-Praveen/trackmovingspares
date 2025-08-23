@@ -1,6 +1,7 @@
 import logo from '../assets/logo.png';
 import About from "./About";
 import Contact from "./Contact";
+import Services from './Services';
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
           </div>
         </div>
         <About/>
+        <Services/>
         <Contact/>
     </>
   );
