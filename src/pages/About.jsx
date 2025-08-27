@@ -29,7 +29,7 @@ const About = () => {
                 In a market flooded with counterfeit products, sourcing genuine parts at reasonable rates was a major hurdle. Through persistence and research, we partnered with reputable suppliers across India and abroad, ensuring trust and quality.
               </p>
               <p className="text-dark lead mb-4 text-justify">
-                Thanks to our loyal customers, we expanded in 2014 under the name <strong>Track Moving Spares</strong>, supplying parts for machines like <strong>Hitachi, KOMATSU, JS, Volvo, Hyundai, All Mini Excavators, Rock Breakers and Lubricants</strong>.
+                Thanks to our loyal customers, we expanded in 2014 under the name <strong>Track Moving Spares</strong>, supplying parts for machines like <strong>JCB, Hitachi, KOMATSU, JS, Volvo, Hyundai, All Mini Excavators, Rock Breakers and Lubricants</strong>.
               </p>
               <p className="text-dark lead mb-0 text-justify">
                 Today, our footprint extends beyond Ettumanoor with branches in <strong>Erattupetta (Panakkapalam)</strong>, <strong>Karukachal (Nethalloor)</strong>, and <strong>Kaduthuruthy (Appanchira)</strong>, all within Kottayam District. Our journey has been powered by a passionate team, our valued customers, and above all, the grace of God.
