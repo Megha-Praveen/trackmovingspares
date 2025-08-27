@@ -8,14 +8,13 @@ const Services = () => {
             <h3 className="fw-bold mb-4 text-center">Quality Spares, Wide Selection</h3>
             <div className="row g-4">
               {[
-                "Engine Parts",
-                "Brake System Parts",
-                "Electrical Components",
-                "Suspension & Steering Parts",
-                "Body & Exterior Parts",
-                "Cooling System Parts",
-                "Transmission Parts",
-                "Filters & Lubricants"
+                "Pin Bushes",
+                "Under Carriage Parts",
+                "Seal Kits",
+                "Tooth & Adaptors",
+                "Filters",
+                "Breaker Chisels",
+                "Lubricants"
               ].map((item, index) => (
                 <div key={index} className="col-md-6 col-lg-4">
                   <div className="p-4 rounded-4 shadow-sm text-center h-100 border border-primary bg-gradient bg-dark service-card">
