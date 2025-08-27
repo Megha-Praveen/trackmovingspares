@@ -20,7 +20,7 @@ const Home = () => {
                 <h1 className="display-5 fw-bold text-theme-yellow">Track Moving Spares</h1>
                 <h2 className="text-theme-orange mt-3">A Group of Perfect Earth Moving</h2>
                 <p className="text-theme-silver mt-4 fs-5">
-                  All high quality replacement spares for JCB, Hitachi, Komatsu, Mini Excavaters, Rock Breakers & Lubricants available.
+                  All high quality replacement spares for JCB, Hitachi, Komatsu, Mini Excavators, Rock Breakers & Lubricants available.
                 </p>
               </div>
             </div>
